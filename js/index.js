@@ -23,7 +23,7 @@
             _this.loaded += .1;
             return _this._update_display();
           } else {
-            _this.$loader_text.text('Loaded');
+            _this.$loader_text.text('..готово');
             return _this.$percent.text('100.0%');
           }
         };
