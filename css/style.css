@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+/* Variables */
+/* Global */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: "Source Code Pro", mono;
+  font-weight: 400;
+  padding: 20px 40px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Loader */
+.loader {
+  margin-bottom: 1em;
+}
+
+.loader-increment {
+  color: #00b200;
+}

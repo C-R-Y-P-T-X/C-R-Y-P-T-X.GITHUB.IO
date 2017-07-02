@@ -1,0 +1,53 @@
+class Loader
+
+  constructor: ->
+
+    # Selectors
+    @$loader       = $('.loader')
+    @$inc          = $('.loader-increment')
+    @$percent      = $('.loader-percent')
+    @$loader_text  = $('.loader-text')
+
+    # Variables
+    @loaded        = 0
+    @increments    = $.makeArray @$inc
+    @loader_length = @increments.length
+    @ratio         = Math.round(100 / @loader_length)
+    @current_inc   = null
+
+    # Inits
+    @_load()
+
+  _load: ->
+    loading = setInterval =>
+      if @loaded < 99.9
+        @loaded += .1
+        @_update_display()
+      else
+        @$loader_text.text 'Loaded'
+        @$percent.text '100.0%'
+    , 10
+
+  _update_display: ->
+    percent = Math.round(@loaded * 10) / 10
+    prepend = ''
+
+    if @loaded < 10
+      prepend = "  "
+    else if @loaded < 100
+      prepend = " "
+    else
+      prepend = ""
+
+    @$percent.text "#{prepend}#{percent}%"
+    new_inc = Math.round(@loaded / @ratio)
+
+    if new_inc isnt @current_inc
+      @current_inc = new_inc
+      $(@increments[@current_inc]).text("#")
+
+
+$ ->
+  
+  window.App ?= {}
+  window.App.Loader = new Loader

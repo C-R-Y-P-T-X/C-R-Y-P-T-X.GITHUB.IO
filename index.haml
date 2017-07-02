@@ -1,0 +1,11 @@
+.loader
+  .loader-text
+    Loading...
+    
+  %span.loader-bracket [
+  
+  - (1..50).each do |idx|
+    %span.loader-increment> &nbsp;
+    
+  %span.loader-bracket ]
+  %span.loader-percent 000.0%

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+/* Variables */
+$white:                   #fff;
+$black:                   #000;
+$gray-dark:               #555;
+$background:              #111;
+$text:                    $white;
+$green:                   #00b200;
+  
+$primary-font:            'Source Code Pro', mono;
+$primary-weight:          400;
+$primary-weight-bold:     700;
+
+$body-margin:             20px 40px;
+
+/* Global */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $background;
+  color: $text;
+  font-family: $primary-font;
+  font-weight: $primary-weight;
+  padding: $body-margin;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Loader */
+.loader {
+  margin-bottom: 1em;
+}
+
+.loader-increment {
+  color: $green;
+}
