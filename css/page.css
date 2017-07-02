@@ -12,7 +12,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
 .main-wrap {
 	position: relative;
 	display: flex;
@@ -27,9 +26,7 @@ body {
 	background-size: 75% auto;
 }
 
-
 /* Buttons */
-
 .btn {
 	margin: 0;
 	padding: 0;
