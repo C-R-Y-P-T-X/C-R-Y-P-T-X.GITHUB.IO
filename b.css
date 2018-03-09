@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=PT+Mono";
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css";
+/*@import "Untitled.css";*/
+/**
+ * Assign width, height x and y positin for each item in the grid, for 4 screen sizes, using only css classes
+ *
+ * Example calsses for "lg" size:
+ *
+ * ┌────────────────────────┐┌─────────────┐
+ * │       lt-lg-x-0        ││  lt-lg-x-2  │
+ * │       lt-lg-y-0        ││  lt-lg-y-0  │
+ * │       lt-lg-w-2        ││  lt-lg-w-1  │
+ * │       lt-lg-h-1        ││  lt-lg-h-1  │
+ * └────────────────────────┘└─────────────┘
+ * ┌───────────────────────────────────────┐
+ * │               lt-lg-x-0               │
+ * │               lt-lg-y-1               │
+ * │               lt-lg-w-3               │
+ * │               lt-lg-h-1               │
+ * └───────────────────────────────────────┘
+ */::-webkit-scrollbar{width:0px;}
+body {font-family:"PT Mono",sans-serif;}
+.column{/*background:#ddd;*/text-align: center;}
+.columns {
+    background: #e8e8e8;
+    font-weight: bolder;
+    color: white;
+}
+.transp_b{background:transparent;}
