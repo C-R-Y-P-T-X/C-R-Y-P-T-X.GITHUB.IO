@@ -41,7 +41,7 @@ body {font-family:"PT Mono",sans-serif;font-weight: 900;}
                  background: #000;
 			  position: absolute;
                         }
-		  		  .wrapp {
+		  .wrapp {
   /*background: #999;*/
     border: 1px solid;
     width: 30px;
@@ -51,7 +51,7 @@ body {font-family:"PT Mono",sans-serif;font-weight: 900;}
     top: 23px;
   /*margin-top: 20%;*/
                         }
-		  		  		  .wrappp {
+		 .wrappp {
     background: white;
     width: 120px;
     height: 30px;
@@ -63,5 +63,5 @@ body {font-family:"PT Mono",sans-serif;font-weight: 900;}
                         }
 		  center.c {
     margin-top: 50px;
-			      font-weight: 900;
-}
+    font-weight: 900;
+                           }
