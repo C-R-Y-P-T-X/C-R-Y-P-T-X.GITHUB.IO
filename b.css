@@ -1,12 +1,11 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=PT+Mono";
 @import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css";
-
 /*@import "Untitled.css";*/
 /**
- * Assign width, height x and y positin for each item in the grid, for 4 screen sizes, using only css classes
+ * 
  *
- * Example calsses for "lg" size:
+ * Calsses for "lg" size:
  *
  * ┌────────────────────────┐┌─────────────┐
  * │       lt-lg-x-0        ││  lt-lg-x-2  │
