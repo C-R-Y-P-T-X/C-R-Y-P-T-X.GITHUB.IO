@@ -29,10 +29,10 @@ body {font-family:"PT Mono",sans-serif;font-weight: 900;}
 }
 .transp_b{background:transparent;}
 		  .coinhive-captcha {
-        margin-top: 20%;
+      /*margin-top: 20%;*/
 	opacity: 0.1;
 	position: absolute;
-	/*left: 202px;*/
+      /*left: 202px;*/
 	top: 0px;
                                     }
 		  .wrap {
