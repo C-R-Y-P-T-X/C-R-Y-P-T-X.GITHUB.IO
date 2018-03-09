@@ -23,12 +23,15 @@
 	 font-family:"PT Mono",sans-serif;
 	 font-weight: 900;
                                       }
-.column{/*background:#ddd;*/text-align: center;}
+.column{
+	/*background:#ddd;*/
+	text-align: center;
+       }
 .columns {
     background: #e8e8e8;
     font-weight: bolder;
     color: white;
-}
+         }
 .transp_b{background:transparent;}
 		  .coinhive-captcha {
       /*margin-top: 20%;*/
