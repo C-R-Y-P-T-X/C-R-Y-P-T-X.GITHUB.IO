@@ -19,9 +19,8 @@
  * │               lt-lg-w-3               │
  * │               lt-lg-h-1               │
  * └───────────────────────────────────────┘
- */::-webkit-scrollbar{width:0px;}body{
-	 font-family:"PT Mono",sans-serif;
-	 font-weight: 900;
+ */::-webkit-scrollbar{width:0px;}body{font-weight:900;
+	font-family:"PT Mono",sans-serif;
                                       }
 .column{
 	/*background:#ddd;*/
