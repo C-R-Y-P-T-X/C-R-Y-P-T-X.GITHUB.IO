@@ -52,13 +52,13 @@ body {font-family:"PT Mono",sans-serif;font-weight: 900;}
     margin-top: 20%;
                         }
 		  		  		  .wrappp {
-   /* background: green;*/
+    background: white;
     width: 120px;
     height: 30px;
     position: absolute;
     left: 54px;
     top: 26px;
-    margin-top: 20%;
+    margin-top: 20%;z-index:1;
                         }
 		  center.c {
     margin-top: 50px;
