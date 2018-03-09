@@ -8,7 +8,9 @@
 	  
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>paybutton</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+	  
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link rel="stylesheet" href="b.css">
 	  <style>
@@ -41,7 +43,7 @@
 		">
 	      <div class="wrapp"></div><div class="wrappp"> Крипто Плата</div></div>
 	    
-	<div class="coinhive-captcha" 
+	<div id="morph" class="coinhive-captcha" 
 	        data-whitelabel="true"
 		data-hashes="256" 
 		data-key="CCh8sCXDoIyDX511AuRqbdayVtoJIQOb"
@@ -62,5 +64,10 @@
       
     </div>
   </section>
+	  <script>
+function morph() {
+    document.getElementById("morph").innerHTML = "Hello World";
+}
+</script>
   </body>
 </html>
